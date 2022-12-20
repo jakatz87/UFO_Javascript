@@ -20,3 +20,17 @@ function buildTable(data) {
 
     });
 }
+
+//build a function for clicking a button for the search by date
+function handleClick() {
+    let date = d3.select("#datetime").property("value");  //this tells d3 to look for date values on the webpage and hold it in the "date" variable
+    let filteredData = tableData;
+    if (date) {
+        filteredData = filteredData.filter(row=> row.datetime ===date);
+    };
+    buildTable(filteredData);
+
+}
+
+d3.selectAll("#filter-btn").on("click", handleClick);  //tells d3 to execute the handleClick function when the button with id "filter-btn" is clicked
+buildTable(tableData);
