@@ -4,6 +4,7 @@ I used UFO sighting information to build a dynamic website with Javascript, allo
 ## Resources
 *Data Source*: 
 - data.js
+
 *Software*: 
 - Javascript, d3
 - HTML
