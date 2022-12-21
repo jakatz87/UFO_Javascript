@@ -108,7 +108,7 @@ To perform a search, simply type in the desired filter criteria and either hit "
 ![image](https://github.com/jakatz87/UFO_Javascript/blob/main/static/images/Filter_screenshot.png)
 
 ## Summary
-With HTML and Bootstrap CSS (see `index.html` and `style.css`, I designed the following page:
+With HTML and Bootstrap CSS (see `index.html` and `style.css`), I designed the following page:
 ![image](https://github.com/jakatz87/UFO_Javascript/blob/main/static/images/Web_Final_Screenshot.png)
 
 One of the drawbacks of the page is the ability to use up to date information.  The data source `data.js` is static and outdated.  I recommend further development with accessing more up to date information, spanning across the globe instead of just North America.  I would also recommend more dynamic filtering, where results are displayed as the filter criteria is being entered, as opposed to hitting "enter" or leaving the search field. 
